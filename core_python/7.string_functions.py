@@ -1,0 +1,26 @@
+# String Functions
+str_len = len("Hello, World!")
+uppercase_str = "hello, world!".upper()
+lowercase_str = "HELLO, WORLD!".lower()
+capitalized_str = "hello, world!".capitalize()
+title_str = "hello world".title()
+stripped_str = "  Python  ".strip()
+left_stripped_str = "  Python  ".lstrip()
+right_stripped_str = "  Python  ".rstrip()
+replaced_str = "Hello, World!".replace("Hello", "Hi")
+index = "Hello, World!".find("World")
+last_index = "Hello, World, World!".rfind("World")
+starts_with = "Hello, World!".startswith("Hello")
+ends_with = "Hello, World!".endswith("World!")
+is_alpha = "abcABC".isalpha()
+is_digit = "12345".isdigit()
+is_alnum = "abc123".isalnum()
+is_upper = "UPPERCASE".isupper()
+is_lower = "lowercase".islower()
+split_str = "apple,banana,cherry".split(",")
+fruits = ["apple", "banana", "cherry"]
+joined_str = ",".join(fruits)
+count_occurrences = "She sells seashells by the seashore.".count("se")
+# Center a string with padding
+centered_str = "Python".center(10, "-")  ## Output --Python--
+print(centered_str)
